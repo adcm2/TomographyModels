@@ -1,0 +1,2 @@
+add_executable(TomogExample example.cpp)
+target_link_libraries(TomogExample TomographyModels)

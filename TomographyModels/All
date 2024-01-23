@@ -1,0 +1,7 @@
+#ifndef TOMOGRAPHYMODEL_ALL_MODULE_H
+#define TOMOGRAPHYMODEL_ALL_MODULE_H
+
+#include "src/ShellExec.hpp"
+#include "Tomography"
+
+#endif

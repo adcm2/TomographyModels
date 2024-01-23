@@ -1,0 +1,10 @@
+/home/alex/Documents/c++/TomographyModels/build/CMakeFiles/test.dir
+/home/alex/Documents/c++/TomographyModels/build/CMakeFiles/edit_cache.dir
+/home/alex/Documents/c++/TomographyModels/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/c++/TomographyModels/build/examples/CMakeFiles/TomogExample.dir
+/home/alex/Documents/c++/TomographyModels/build/examples/CMakeFiles/test.dir
+/home/alex/Documents/c++/TomographyModels/build/examples/CMakeFiles/edit_cache.dir
+/home/alex/Documents/c++/TomographyModels/build/examples/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/c++/TomographyModels/build/tests/CMakeFiles/test.dir
+/home/alex/Documents/c++/TomographyModels/build/tests/CMakeFiles/edit_cache.dir
+/home/alex/Documents/c++/TomographyModels/build/tests/CMakeFiles/rebuild_cache.dir
