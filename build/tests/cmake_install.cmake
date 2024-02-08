@@ -1,4 +1,4 @@
-# Install script for directory: /home/alex/Documents/c++/TomographyModels/tests
+# Install script for directory: /home/adcm2/raidam/TomographyModels/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

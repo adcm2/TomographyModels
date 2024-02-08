@@ -1,4 +1,4 @@
-# Install script for directory: /home/alex/Documents/c++/TomographyModels
+# Install script for directory: /home/adcm2/raidam/TomographyModels
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alex/Documents/c++/TomographyModels/build/examples/cmake_install.cmake")
-  include("/home/alex/Documents/c++/TomographyModels/build/tests/cmake_install.cmake")
+  include("/home/adcm2/raidam/TomographyModels/build/examples/cmake_install.cmake")
+  include("/home/adcm2/raidam/TomographyModels/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/alex/Documents/c++/TomographyModels/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adcm2/raidam/TomographyModels/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

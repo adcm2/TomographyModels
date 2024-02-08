@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/TomogExample.dir/example.cpp.o -o ../bin/TomogExample  /usr/lib/x86_64-linux-gnu/libnetcdf.so.19 
+/opt/gcc-13.1.0/bin/c++ CMakeFiles/TomogExample.dir/example.cpp.o -o ../bin/TomogExample  /usr/lib/x86_64-linux-gnu/libnetcdf.so.13 

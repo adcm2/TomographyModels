@@ -14,7 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lnetcdf")
 # add in Eigen3
 # include(FetchContent)
 # FetchContent_Declare(
@@ -29,9 +29,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 add_library (TomographyModels INTERFACE)
 
 # find_library(NETCDF)
-
+SET(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
+include(FindNetCDF)
 find_package(netCDF REQUIRED)
-target_link_libraries(TomographyModels INTERFACE netCDF::netcdf)
+# include_directories(${NETCDF_INCLUDES})
+target_link_libraries(TomographyModels INTERFACE netcdf)
 target_include_directories (TomographyModels INTERFACE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
   $<INSTALL_INTERFACE:${INCLUDE_INSTALL_DIR}>
